@@ -7,7 +7,6 @@
 
 <body>
     <h1></h1>
-    <input type="number">
     <button onclick=clique()>Clique</button>
     <button onclick=alerta()>Alerta</button>
     <button onclick=exibirPrompt()>Prompt</button>
@@ -33,8 +32,8 @@
     }
 
     function soma() {
-        let numero1 = prompt("Numero 1");
-        let numero2 = prompt("Numero 2");
+        let numero1 = parseInt(prompt('Digite o primeiro número'));
+        let numero2 = parseInt(prompt('Digite o segundo número'));
         let soma = (numero1 + numero2);
         alert(soma);
     }
